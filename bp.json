@@ -1,0 +1,67 @@
+{
+    "producer_account_name": "echobasefour",
+    "org": {
+      "candidate_name": "Echo Base",
+      "website": "https://bp.echobaseinc.com",
+      "code_of_conduct":"https://bp.echobaseinc.com/code-of-conduct/",
+      "ownership_disclosure":"https://bp.echobaseinc.com/code-of-conduct/#Ownership",
+    "chain_resources": "",
+      "email":"a@echobaseinc.com",
+      "github_user": ["Ashkaan"],
+      "branding":{
+        "logo_256":"https://bp.echobaseinc.com/logo/echobase.png",
+        "logo_1024":"https://bp.echobaseinc.com/logo/echobase.png",
+        "logo_svg":"https://bp.echobaseinc.com/logo/echobase.png"
+      },
+      "location": {
+        "name": "Ohio",
+        "country": "US",
+        "latitude": 40.4173,
+        "longitude": 82.9071
+      },
+      "social": {
+        "github":"Ashkaan",
+        "keybase": "Ashkaan",
+        "telegram": "Ashkaan",
+        "twitter": "Ashkaan"
+      }
+    },
+    "nodes": [
+      {
+        "location": {
+         "name": "Phoenix",
+         "country": "US",
+         "latitude": 40.4173,
+         "longitude": 82.9071
+        },
+        "node_type": "producer"
+      },
+      {
+        "location": {
+         "name": "Phoenix",
+         "country": "US",
+         "latitude": 40.4173,
+         "longitude": 82.9071
+        },
+        "node_type": "seed",
+        "p2p_endpoint": "seed.libre.org:9876"
+      },
+      {
+        "location": {
+            "name": "Phoenix",
+            "country": "US",
+            "latitude": 40.4173,
+            "longitude": 82.9071
+           },
+        "node_type": "query",
+        "api_endpoint": "http://hyperion.libre.rocks",
+        "ssl_endpoint": "https://hyperion.libre.rocks",
+        "features": [
+        "chain-api",
+  "account-query",
+        "history-v1",
+        "hyperion-v2"
+        ]
+      }
+    ]
+  }
