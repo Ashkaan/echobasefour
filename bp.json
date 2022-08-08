@@ -16,8 +16,8 @@
   "location": {
     "name": "California",
     "country": "US",
-    "latitude": 40.4173,
-    "longitude": 82.9071
+    "latitude": 34.0522,
+    "longitude": 118.2437
   },
   "social": {
     "github": "Ashkaan",
@@ -25,5 +25,43 @@
     "telegram": "Ashkaan",
     "twitter": "Ashkaan"
       }
-    }
+    },
+    "nodes": [
+      {
+        "location": {
+         "name": "California",
+         "country": "US",
+         "latitude": 34.0522,
+         "longitude": 118.2437
+        },
+        "node_type": "producer"
+      },
+      {
+        "location": {
+         "name": "California",
+         "country": "US",
+         "latitude": 34.0522,
+         "longitude": 118.2437
+        },
+        "node_type": "seed",
+        "p2p_endpoint": "bp.echobaseinc.com:9876"
+      },
+      {
+        "location": {
+            "name": "California",
+            "country": "US",
+            "latitude": 34.0522,
+            "longitude": 118.2437
+           },
+        "node_type": "query",
+        "api_endpoint": "http://bp.echobaseinc.com",
+        "ssl_endpoint": "https://bp.echobaseinc.com",
+        "features": [
+        "chain-api",
+	"account-query",
+        "history-v1",
+        "hyperion-v2"
+        ]
+      }
+    ]
   }
