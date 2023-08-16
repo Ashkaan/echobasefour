@@ -1,0 +1,67 @@
+{
+  "producer_account_name": "echobasefour",
+  "org": {
+    "candidate_name": "Echo Base",
+    "website": "https://bp.echobaseinc.com",
+    "code_of_conduct": "https://bp.echobaseinc.com/code-of-conduct/",
+    "ownership_disclosure": "https://bp.echobaseinc.com/code-of-conduct/#Ownership",
+    "chain_resources": "",
+    "email": "a@echobaseinc.com",
+    "github_user": ["Ashkaan"],
+    "branding": {
+      "logo_256": "https://bp.echobaseinc.com/logo/echobase-256.png",
+      "logo_1024": "https://bp.echobaseinc.com/logo/echobase.png",
+      "logo_svg": "https://bp.echobaseinc.com/logo/echobase.svg"
+  },
+  "location": {
+    "name": "California",
+    "country": "US",
+    "latitude": 34.0522,
+    "longitude": 118.2437
+  },
+  "social": {
+    "github": "Ashkaan",
+    "keybase": "Ashkaan",
+    "telegram": "Ashkaan",
+    "twitter": "Ashkaan"
+      }
+    },
+    "nodes": [
+      {
+        "location": {
+         "name": "California",
+         "country": "US",
+         "latitude": 34.0522,
+         "longitude": 118.2437
+        },
+        "node_type": "producer"
+      },
+      {
+        "location": {
+         "name": "California",
+         "country": "US",
+         "latitude": 34.0522,
+         "longitude": 118.2437
+        },
+        "node_type": "seed",
+        "p2p_endpoint": "libre.echobaseinc.com:9876"
+      },
+      {
+        "location": {
+            "name": "California",
+            "country": "US",
+            "latitude": 34.0522,
+            "longitude": 118.2437
+           },
+        "node_type": "query",
+        "api_endpoint": "http://libre.echobaseinc.com:8888",
+        "ssl_endpoint": "https://libre.echobaseinc.com:8888",
+        "features": [
+        "chain-api",
+	"account-query",
+        "history-v1",
+        "hyperion-v2"
+        ]
+      }
+    ]
+  }
