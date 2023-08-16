@@ -54,8 +54,8 @@
             "longitude": 118.2437
            },
         "node_type": "query",
-        "api_endpoint": "http://bp.echobaseinc.com",
-        "ssl_endpoint": "https://bp.echobaseinc.com",
+        "api_endpoint": "http://libre.echobaseinc.com:8889",
+        "ssl_endpoint": "https://libre.echobaseinc.com:8889",
         "features": [
         "chain-api",
 	"account-query",
